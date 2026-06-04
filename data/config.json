@@ -10,7 +10,7 @@
     "tagline": "3D Environment Artist",
     "heroTitle": "Abdul<br><em>Rafeh</em>",
     "heroSubtitle": "Crafting worlds that blur the line between the real and imagined — from cinematic interiors to sweeping sci-fi landscapes.",
-    "heroAlign": "center",
+    "heroAlign": "left",
     "heroVideo": "assets/videos/hero.mp4",
     "scrollHint": "Scroll to explore",
     "heroButtons": [
@@ -25,7 +25,7 @@
         "accent": false
       }
     ],
-    "email": "hello@abdulrafeh.com"
+    "email": "coolrafehq12@gmail.com"
   },
   "work": {
     "label": "Selected Work",
@@ -40,7 +40,7 @@
   "about": {
     "label": "The Artist",
     "title": "Worlds Built<br>by Hand",
-    "p1": "<strong>Abdul Rafeh</strong> is a 3D environment artist with a passion for building believable, atmospheric worlds that tell stories without words.",
+    "p1": "Abdul Rafeh is a 3D environment artist with a passion for building believable, atmospheric worlds that tell stories without words.",
     "p2": "Working across cinematic, sci-fi, fantasy, and architectural genres — with a speciality in mood, lighting, and immersive detail.",
     "p3": "Available for freelance collaborations, game production pipelines, film pre-vis, and personal commissions."
   },
@@ -66,227 +66,219 @@
   },
   "stats": [
     {
-      "number": "24+",
+      "number": "20+",
       "label": "Environments Created"
     },
     {
-      "number": "5+",
+      "number": "2+",
       "label": "Years of Experience"
     },
     {
-      "number": "18+",
+      "number": "10+",
       "label": "Clients & Collaborators"
     }
   ],
   "skills": [
-    "Unreal Engine 5",
     "Blender",
-    "ZBrush",
-    "Substance Painter",
+    "Unreal Engine 5",
+    "Gaea",
     "Lighting",
+    "Rendering",
+    "Composition",
+    "Texture painting",
+    "Material Blending",
+    "Terrain Creation",
     "Environment Art"
   ],
   "socials": {
-    "artstation": "#",
-    "youtube": "#",
-    "instagram": "#"
+    "artstation": "https://rafeh.artstation.com/",
+    "youtube": "https://www.youtube.com/@Rafeh51",
+    "instagram": "https://www.instagram.com/rafeh51_"
   },
   "customCSS": "",
- "projects": [
-  {
-    "id": "stormbound-sanctuary",
-    "title": "Stormbound Sanctuary",
-    "software": "Blender",
-    "category": "cinematic",
-    "year": 2026,
-    "description": "A dark cinematic environment set under a storm-heavy sky, focused on isolation, decay, weather, and mood. The scene uses strong silhouettes, weathered architecture, rough terrain, and dramatic lighting to create a harsh but visually striking atmosphere.",
-    "responsibilities": "Environment Art, Modeling, Texture Painting, Material Blending, Lighting, Rendering, Composition.",
-    "breakdown": "The project was built around mood first. I focused on creating a readable composition with a strong central structure, layered materials, weathered surfaces, and storm-driven lighting. The goal was to make the scene feel lonely, heavy, and cinematic without making the frame too noisy.",
-    "image": "assets/images/stormbound-sanctuary.webp",
-    "gallery": [
-      "assets/images/stormbound-sanctuary.webp"
-    ],
-    "height": 360
-  },
-  {
-    "id": "welcome-to-jurassic-world",
-    "title": "Welcome to Jurassic World — Recreation in Blender",
-    "software": "Blender, Gaea",
-    "category": "cinematic",
-    "year": 2026,
-    "description": "A large-scale cinematic environment inspired by the Jurassic World park reveal scene. The scene focuses on scale, terrain, atmosphere, mountain silhouettes, and a strong sense of discovery.",
-    "responsibilities": "Environment Art, Terrain Creation, Layout, Scene Assembly, Lighting, Rendering, Composition, Cinematic Framing.",
-    "breakdown": "Gaea was used for terrain creation, while Blender handled the scene assembly, layout, lighting, rendering, and final composition. The focus was on layered depth, atmospheric haze, landmark placement, and making the scene feel massive while still keeping the frame clean and readable.",
-    "image": "assets/images/welcome-to-jurassic-world.webp",
-    "gallery": [
-      "assets/images/welcome-to-jurassic-world.webp"
-    ],
-    "height": 400
-  },
-  {
-    "id": "forest-scene-ue5",
-    "title": "Forest Scene | UE5",
-    "software": "Unreal Engine 5, Quixel / Megascans",
-    "category": "fantasy",
-    "year": 2026,
-    "description": "A natural forest environment built in Unreal Engine 5 using placed assets. The scene focuses on layout, depth, lighting, and a calm atmospheric mood.",
-    "responsibilities": "Environment Layout, Asset Placement, Lighting, Atmosphere, Composition, Scene Dressing.",
-    "breakdown": "The main goal was to avoid a flat asset-scatter look. I focused on foreground, midground, and background layering, varied asset scale, natural spacing, and controlled lighting to create depth and visual flow.",
-    "image": "assets/images/forest-scene-ue5.webp",
-    "gallery": [
-      "assets/images/forest-scene-ue5.webp"
-    ],
-    "height": 360
-  },
-  {
-    "id": "the-cave-ue5",
-    "title": "The Cave | UE5",
-    "software": "Unreal Engine 5, Quixel / Megascans",
-    "category": "fantasy",
-    "year": 2026,
-    "description": "An early Unreal Engine 5 cave environment using Quixel assets, focused on scale, rock formations, composition, and lighting.",
-    "responsibilities": "Environment Assembly, Quixel Asset Placement, Lighting, Composition, UE5 Workflow.",
-    "breakdown": "This project helped me understand the UE5 environment workflow. I focused on turning scanned cave assets into a designed scene by controlling silhouette, pathing, rock layering, and focal lighting.",
-    "image": "assets/images/the-cave-ue5.webp",
-    "gallery": [
-      "assets/images/the-cave-ue5.webp"
-    ],
-    "height": 340
-  },
-  {
-    "id": "a-lonely-night",
-    "title": "A Lonely Night — Blender Shortfilm",
-    "software": "Blender",
-    "category": "cinematic",
-    "year": 2026,
-    "description": "A cinematic Blender short film environment inspired by the Dufer Bar from Stray. The scene focuses on a detailed interior space with texture, atmosphere, lighting, and lived-in storytelling. ",
-    "responsibilities": "Environment Art, Interior Set Dressing, Lighting, Texturing, Rendering, Cinematic Composition.",
-    "breakdown": "The story was kept simple so the environment could carry most of the emotional weight. I focused on dense prop storytelling, warm and cool light contrast, small visual details, and atmosphere to make the space feel alive.",
-    "image": "assets/images/a-lonely-night.webp",
-    "gallery": [
-      "assets/images/a-lonely-night.webp"
-    ],
-    "height": 360
-  },
-  {
-    "id": "photorealistic-japanese-street",
-    "title": "Photorealistic Japanese Street",
-    "software": "Blender, Botaniq",
-    "category": "architectural",
-    "year": 2026,
-    "description": "A photorealistic Japanese street environment focused on quiet urban atmosphere, architecture, greenery, and believable real-world scale.",
-    "responsibilities": "Urban Environment Art, Image Projection, Lighting, Rendering, Composition, Scene Assembly.",
-    "breakdown": "This project explored image projection techniques inspired by Ian Hubert. I used projection-based environment work with supporting geometry, lighting continuity, careful camera framing, and Botaniq tree assets to make the street feel dimensional and grounded.",
-    "image": "assets/images/photorealistic-japanese-street.webp",
-    "gallery": [
-      "assets/images/photorealistic-japanese-street.webp"
-    ],
-    "height": 360
-  },
-  {
-    "id": "forgotten-passage",
-    "title": "Forgotten Passage",
-    "software": "Blender",
-    "category": "fantasy",
-    "year": 2026,
-    "description": "A moody passage environment built around mystery, age, and exploration. The scene suggests a forgotten space with history beyond the frame.",
-    "responsibilities": "Environment Art, Modeling, Material Work, Lighting, Rendering, Composition.",
-    "breakdown": "The project was designed as a compact storytelling environment. I focused on aged surfaces, narrow composition, material wear, and focused lighting to create a sense of discovery and atmosphere.",
-    "image": "assets/images/forgotten-passage.webp",
-    "gallery": [
-      "assets/images/forgotten-passage.webp"
-    ],
-    "height": 340
-  },
-  {
-    "id": "astronaut",
-    "title": "Astronaut",
-    "software": "Blender",
-    "category": "sci-fi",
-    "year": 2026,
-    "description": "A sci-fi artwork built around isolation, space exploration, and cinematic mood, using the astronaut as the emotional focal point.",
-    "responsibilities": "3D Scene Creation, Lighting, Rendering, Composition, Sci-Fi Mood Development.",
-    "breakdown": "The composition uses contrast, scale, and clean sci-fi framing to create a lonely exploration mood. I kept the astronaut readable against a larger unknown setting using strong focal contrast and atmospheric depth.",
-    "image": "assets/images/astronaut.webp",
-    "gallery": [
-      "assets/images/astronaut.webp"
-    ],
-    "height": 360
-  },
-  {
-    "id": "elden-ring-fanart",
-    "title": "Elden Ring Fanart",
-    "software": "Blender",
-    "category": "fantasy",
-    "year": 2026,
-    "description": "A dark fantasy fanart environment inspired by the grand, ruined, mysterious atmosphere of Elden Ring-style worldbuilding.",
-    "responsibilities": "Fantasy Environment Art, Lighting, Composition, Mood, Rendering.",
-    "breakdown": "The piece focuses on monumental fantasy atmosphere. I used strong silhouettes, dramatic lighting, scale, and controlled detail density to keep the environment readable while still feeling mythic and heavy.",
-    "image": "assets/images/elden-ring-fanart.webp",
-    "gallery": [
-      "assets/images/elden-ring-fanart.webp"
-    ],
-    "height": 380
-  },
-  {
-    "id": "stelline-lab-blade-runner-2049",
-    "title": "Stelline Lab — Blade Runner 2049",
-    "software": "Blender",
-    "category": "sci-fi",
-    "year": 2026,
-    "description": "A sci-fi environment inspired by Blade Runner 2049, focused on sterile futurism, clean architectural spacing, reflective materials, and cinematic lighting.",
-    "responsibilities": "Environment Art, Hard-Surface Set Dressing, Lighting, Rendering, Composition.",
-    "breakdown": "This project explores futuristic mood through restrained lighting, reflective surfaces, minimal composition, and architectural spacing. The goal was to create a clean sci-fi environment that still feels cinematic and atmospheric.",
-    "image": "assets/images/stelline-lab-blade-runner-2049.webp",
-    "gallery": [
-      "assets/images/stelline-lab-blade-runner-2049.webp"
-    ],
-    "height": 340
-  },
-  {
-    "id": "nothing-to-see-here",
-    "title": "Nothing to See Here",
-    "software": "Blender",
-    "category": "cinematic",
-    "year": 2026,
-    "description": "A mystery-driven cinematic environment artwork built around atmosphere, framing, and visual curiosity.",
-    "responsibilities": "Environment Art, Scene Dressing, Lighting, Rendering, Composition.",
-    "breakdown": "This project was treated as a mood-first portfolio piece. The composition leans into controlled reveal and visual intrigue rather than overexplaining the scene, making the viewer want to look closer.",
-    "image": "assets/images/nothing-to-see-here.webp",
-    "gallery": [
-      "assets/images/nothing-to-see-here.webp"
-    ],
-    "height": 340
-  },
-  {
-    "id": "cyberpunk-fanart",
-    "title": "Cyberpunk Fanart",
-    "software": "Blender",
-    "category": "sci-fi",
-    "year": 2026,
-    "description": "A cyberpunk-inspired environment focused on futuristic mood, neon-lit atmosphere, urban sci-fi language, and high-contrast lighting.",
-    "responsibilities": "Sci-Fi Environment Art, Lighting, Rendering, Composition, Mood Development.",
-    "breakdown": "The project uses neon lighting, dark negative space, urban sci-fi cues, and atmospheric presentation to create a compact cyberpunk world. The goal was to make the sci-fi mood feel bold without making the frame visually messy.",
-    "image": "assets/images/cyberpunk-fanart.webp",
-    "gallery": [
-      "assets/images/cyberpunk-fanart.webp"
-    ],
-    "height": 360
-  },
-  {
-    "id": "spaceship-wallpaper",
-    "title": "Spaceship Wallpaper",
-    "software": "Blender",
-    "category": "sci-fi",
-    "year": 2026,
-    "description": "A clean sci-fi spaceship artwork designed as a wallpaper-style composition, focused on silhouette, scale, and cinematic readability.",
-    "responsibilities": "Hard-Surface Presentation, Lighting, Rendering, Composition, Sci-Fi Design Presentation.",
-    "breakdown": "The image was built around a strong visual read first: a clear spaceship silhouette, controlled contrast, clean lighting, and minimal noise. The goal was to make the artwork feel polished and readable at wallpaper scale.",
-    "image": "assets/images/spaceship-wallpaper.webp",
-    "gallery": [
-      "assets/images/spaceship-wallpaper.webp"
-    ],
-    "height": 320
-  }
-]
+  "projects": [
+    {
+      "id": "stormbound-sanctuary",
+      "title": "Stormbound Sanctuary",
+      "software": "Blender",
+      "category": "cinematic",
+      "year": 2026,
+      "description": "A dark cinematic environment set under a storm-heavy sky, focused on isolation, decay, weather, and mood. The scene uses strong silhouettes, weathered architecture, rough terrain, and dramatic lighting to create a harsh but visually striking atmosphere.",
+      "responsibilities": "Environment Art, Modeling, Texture Painting, Material Blending, Lighting, Rendering, Composition.",
+      "breakdown": "The project was built around mood first. I focused on creating a readable composition with a strong central structure, layered materials, weathered surfaces, and storm-driven lighting. The goal was to make the scene feel lonely, heavy, and cinematic without making the frame too noisy.",
+      "links": [],
+      "image": "https://cdna.artstation.com/p/assets/images/images/098/381/104/large/abdul-rafeh-post3.webp?1776893641",
+      "gallery": [
+        "https://cdna.artstation.com/p/assets/images/images/098/381/104/large/abdul-rafeh-post3.webp?1776893641",
+        "https://cdnb.artstation.com/p/assets/images/images/098/381/151/large/abdul-rafeh-2.webp?1776893744",
+        "https://cdna.artstation.com/p/assets/images/images/098/381/108/large/abdul-rafeh-viewport.webp?1776893654"
+      ],
+      "height": 220
+    },
+    {
+      "id": "forest-scene-ue5",
+      "title": "Forest Scene | UE5",
+      "software": "Unreal Engine 5, Quixel / Megascans",
+      "category": "fantasy",
+      "year": 2024,
+      "description": "A natural forest environment built in Unreal Engine 5 using placed assets. The scene focuses on layout, depth, lighting, and a calm atmospheric mood.",
+      "responsibilities": "Environment Layout, Asset Placement, Lighting, Atmosphere, Composition, Scene Dressing.",
+      "breakdown": "The main goal was to avoid a flat asset-scatter look. I focused on foreground, midground, and background layering, varied asset scale, natural spacing, and controlled lighting to create depth and visual flow.",
+      "links": [],
+      "image": "https://cdnb.artstation.com/p/assets/images/images/091/971/371/large/abdul-rafeh-forest.webp?1758313206",
+      "gallery": [
+        "https://cdnb.artstation.com/p/assets/images/images/091/971/371/large/abdul-rafeh-forest.webp?1758313206"
+      ],
+      "height": 300
+    },
+    {
+      "id": "astronaut",
+      "title": "Astronaut",
+      "software": "Blender",
+      "category": "sci-fi",
+      "year": 2026,
+      "description": "A sci-fi artwork built around isolation, space exploration, and cinematic mood, using the astronaut as the emotional focal point.",
+      "responsibilities": "3D Scene Creation, Lighting, Rendering, Composition, Sci-Fi Mood Development.",
+      "breakdown": "The composition uses contrast, scale, and clean sci-fi framing to create a lonely exploration mood. I kept the astronaut readable against a larger unknown setting using strong focal contrast and atmospheric depth.",
+      "links": [],
+      "image": "https://cdnb.artstation.com/p/assets/images/images/092/010/291/medium/abdul-rafeh-astronaut.webp?1758465713",
+      "gallery": [
+        "https://cdnb.artstation.com/p/assets/images/images/092/010/291/medium/abdul-rafeh-astronaut.webp?1758465713"
+      ],
+      "height": 500
+    },
+    {
+      "id": "photorealistic-japanese-street",
+      "title": "Photorealistic Japanese Street",
+      "software": "Blender, Botaniq",
+      "category": "architectural",
+      "year": 2025,
+      "description": "A photorealistic Japanese street environment focused on quiet urban atmosphere, architecture, greenery, and believable real-world scale.",
+      "responsibilities": "Urban Environment Art, Image Projection, Lighting, Rendering, Composition, Scene Assembly.",
+      "breakdown": "This project explored image projection techniques inspired by Ian Hubert. I used projection-based environment work with supporting geometry, lighting continuity, careful camera framing, and Botaniq tree assets to make the street feel dimensional and grounded.",
+      "links": [],
+      "image": "https://cdna.artstation.com/p/assets/images/images/089/518/310/medium/abdul-rafeh-whatsapp-image-2025-06-29-at-17-47-38-a5e2f836.jpg?1751201271",
+      "gallery": [
+        "https://cdna.artstation.com/p/assets/images/images/089/518/310/medium/abdul-rafeh-whatsapp-image-2025-06-29-at-17-47-38-a5e2f836.jpg?1751201271"
+      ],
+      "height": 500
+    },
+    {
+      "id": "welcome-to-jurassic-world",
+      "title": "Welcome to Jurassic World — Recreation in Blender",
+      "software": "Blender, Gaea",
+      "category": "architectural",
+      "year": 2025,
+      "description": "A large-scale cinematic environment inspired by the Jurassic World park reveal scene. The scene focuses on scale, terrain, atmosphere, mountain silhouettes, and a strong sense of discovery.",
+      "responsibilities": "Environment Art, Terrain Creation, Layout, Scene Assembly, Lighting, Rendering, Composition, Cinematic Framing.",
+      "breakdown": "Gaea was used for terrain creation, while Blender handled the scene assembly, layout, lighting, rendering, and final composition. The focus was on layered depth, atmospheric haze, landmark placement, and making the scene feel massive while still keeping the frame clean and readable.",
+      "links": [],
+      "image": "https://cdna.artstation.com/p/assets/images/images/096/053/716/large/abdul-rafeh-post.webp?1770226597",
+      "gallery": [
+        "https://cdna.artstation.com/p/assets/images/images/096/053/716/large/abdul-rafeh-post.webp?1770226597"
+      ],
+      "height": 220
+    },
+    {
+      "id": "the-cave-ue5",
+      "title": "The Cave | UE5",
+      "software": "Unreal Engine 5, Quixel / Megascans",
+      "category": "fantasy",
+      "year": 2026,
+      "description": "An early Unreal Engine 5 cave environment using Quixel assets, focused on scale, rock formations, composition, and lighting.",
+      "responsibilities": "Environment Assembly, Quixel Asset Placement, Lighting, Composition, UE5 Workflow.",
+      "breakdown": "This project helped me understand the UE5 environment workflow. I focused on turning scanned cave assets into a designed scene by controlling silhouette, pathing, rock layering, and focal lighting.",
+      "links": [],
+      "image": "https://cdna.artstation.com/p/assets/images/images/091/969/514/medium/abdul-rafeh-cave.webp?1758308012",
+      "gallery": [
+        "https://cdna.artstation.com/p/assets/images/images/091/969/514/medium/abdul-rafeh-cave.webp?1758308012"
+      ],
+      "height": 300
+    },
+    {
+      "id": "elden-ring-fanart",
+      "title": "Elden Ring Fanart",
+      "software": "Blender",
+      "category": "fantasy",
+      "year": 2026,
+      "description": "A dark fantasy fanart environment inspired by the grand, ruined, mysterious atmosphere of Elden Ring-style worldbuilding.",
+      "responsibilities": "Fantasy Environment Art, Lighting, Composition, Mood, Rendering.",
+      "breakdown": "The piece focuses on monumental fantasy atmosphere. I used strong silhouettes, dramatic lighting, scale, and controlled detail density to keep the environment readable while still feeling mythic and heavy.",
+      "links": [],
+      "image": "https://cdna.artstation.com/p/assets/images/images/092/010/870/medium/abdul-rafeh-elden-ring.webp?1758466957",
+      "gallery": [
+        "https://cdna.artstation.com/p/assets/images/images/092/010/870/medium/abdul-rafeh-elden-ring.webp?1758466957"
+      ],
+      "height": 500
+    },
+    {
+      "id": "stelline-lab-blade-runner-2049",
+      "title": "Stelline Lab — Blade Runner 2049",
+      "software": "Blender",
+      "category": "sci-fi",
+      "year": 2026,
+      "description": "A sci-fi environment inspired by Blade Runner 2049, focused on sterile futurism, clean architectural spacing, reflective materials, and cinematic lighting.",
+      "responsibilities": "Environment Art, Hard-Surface Set Dressing, Lighting, Rendering, Composition.",
+      "breakdown": "This project explores futuristic mood through restrained lighting, reflective surfaces, minimal composition, and architectural spacing. The goal was to create a clean sci-fi environment that still feels cinematic and atmospheric.",
+      "links": [],
+      "image": "https://cdna.artstation.com/p/assets/images/images/089/511/614/medium/rafeh51-bladerunner.jpg?1751176447",
+      "gallery": [
+        "https://cdna.artstation.com/p/assets/images/images/089/511/614/medium/rafeh51-bladerunner.jpg?1751176447"
+      ],
+      "height": 220
+    },
+    {
+      "id": "a-lonely-night",
+      "title": "A Lonely Night — Blender Shortfilm",
+      "software": "Blender",
+      "category": "cinematic",
+      "year": 2024,
+      "description": "A cinematic Blender short film environment inspired by the Dufer Bar from Stray. The scene focuses on a detailed interior space with texture, atmosphere, lighting, and lived-in storytelling.",
+      "responsibilities": "Environment Art, Interior Set Dressing, Lighting, Texturing, Rendering, Cinematic Composition.",
+      "breakdown": "The story was kept simple so the environment could carry most of the emotional weight. I focused on dense prop storytelling, warm and cool light contrast, small visual details, and atmosphere to make the space feel alive.",
+      "links": [
+        {
+          "label": "Watch on YouTube",
+          "url": "https://youtu.be/qxFCtZdSE9w?si=CvfORdg5sCWyjOuP"
+        }
+      ],
+      "image": "https://cdnb.artstation.com/p/assets/images/images/091/084/811/medium/abdul-rafeh-4.webp?1755773034",
+      "gallery": [
+        "https://cdnb.artstation.com/p/assets/images/images/091/084/811/medium/abdul-rafeh-4.webp?1755773034"
+      ],
+      "height": 220
+    },
+    {
+      "id": "cyberpunk-fanart",
+      "title": "Cyberpunk Fanart",
+      "software": "Blender",
+      "category": "sci-fi",
+      "year": 2026,
+      "description": "A cyberpunk-inspired environment focused on futuristic mood, neon-lit atmosphere, urban sci-fi language, and high-contrast lighting.",
+      "responsibilities": "Sci-Fi Environment Art, Lighting, Rendering, Composition, Mood Development.",
+      "breakdown": "The project uses neon lighting, dark negative space, urban sci-fi cues, and atmospheric presentation to create a compact cyberpunk world. The goal was to make the sci-fi mood feel bold without making the frame visually messy.",
+      "links": [],
+      "image": "https://cdnb.artstation.com/p/assets/images/images/092/010/569/medium/abdul-rafeh-cyberpunk-cityy.webp?1758466291",
+      "gallery": [
+        "https://cdnb.artstation.com/p/assets/images/images/092/010/569/medium/abdul-rafeh-cyberpunk-cityy.webp?1758466291"
+      ],
+      "height": 500
+    },
+    {
+      "id": "forgotten-passage",
+      "title": "Forgotten Passage",
+      "software": "Blender",
+      "category": "fantasy",
+      "year": 2025,
+      "description": "A moody passage environment built around mystery, age, and exploration. The scene suggests a forgotten space with history beyond the frame.",
+      "responsibilities": "Environment Art, Modeling, Material Work, Lighting, Rendering, Composition.",
+      "breakdown": "The project was designed as a compact storytelling environment. I focused on aged surfaces, narrow composition, material wear, and focused lighting to create a sense of discovery and atmosphere.",
+      "links": [],
+      "image": "https://cdna.artstation.com/p/assets/images/images/092/011/466/medium/abdul-rafeh-subway.jpg?1758468428",
+      "gallery": [
+        "https://cdna.artstation.com/p/assets/images/images/092/011/466/medium/abdul-rafeh-subway.jpg?1758468428"
+      ],
+      "height": 500
+    }
+  ]
 }
