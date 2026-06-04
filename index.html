@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Abdul Rafeh — 3D Environment Artist</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&family=Outfit:wght@200;300;400;500&display=swap"
+    rel="stylesheet"
+  >
+
+<link rel="stylesheet" href="./css/styles.css?v=1" />  <script src="js/app.js" defer></script>
+</head>
+
+<body>
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <nav id="mainNav">
+    <a href="#hero" class="active">Home</a>
+    <a href="#portfolio">Work</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="hero" class="hero-center">
+    <div class="hero-video-wrap" id="heroVideoWrap">
+      <video id="heroVideo" autoplay loop muted playsinline>
+        <source id="heroVideoSource" src="" type="video/mp4" />
+      </video>
+      <div class="hero-video-overlay"></div>
+    </div>
+
+    <div class="hero-content">
+      <p class="hero-eyebrow" id="heroEyebrow">3D Environment Artist</p>
+
+      <h1 class="hero-title" id="heroTitle">
+        Abdul<br><em>Rafeh</em>
+      </h1>
+
+      <p class="hero-subtitle" id="heroSubtitle">
+        Crafting worlds that blur the line between the real and imagined.
+      </p>
+
+      <div class="hero-btns">
+        <a href="#portfolio" class="glass-btn accent-btn">View Work ↓</a>
+        <a href="#contact" class="glass-btn">Get in Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span class="scroll-line"></span>
+      <span>Scroll to explore</span>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="portfolio-header reveal">
+      <div>
+        <p class="section-label">Selected Work</p>
+        <h2 class="section-title">Environments</h2>
+      </div>
+
+      <div class="filter-bar" id="filterBar">
+        <button class="filter-btn active" data-filter="all" type="button">All</button>
+        <button class="filter-btn" data-filter="cinematic" type="button">Cinematic</button>
+        <button class="filter-btn" data-filter="sci-fi" type="button">Sci-Fi</button>
+        <button class="filter-btn" data-filter="fantasy" type="button">Fantasy</button>
+        <button class="filter-btn" data-filter="architectural" type="button">Architectural</button>
+      </div>
+    </div>
+
+    <div class="masonry" id="masonryGrid"></div>
+  </section>
+
+  <section id="about">
+    <div class="about-text reveal">
+      <p class="section-label">The Artist</p>
+
+      <h2 class="section-title" id="aboutTitle">
+        Worlds Built<br>by Hand
+      </h2>
+
+      <p id="aboutP1"></p>
+      <p id="aboutP2"></p>
+      <p id="aboutP3"></p>
+
+      <div class="skills-grid" id="skillsGrid"></div>
+    </div>
+
+    <div class="about-stats reveal">
+      <div class="stat-card">
+        <div class="stat-number" id="statProjects">24+</div>
+        <div class="divider-line"></div>
+        <div class="stat-label" id="statProjectsLabel">Environments Created</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-number" id="statYears">5+</div>
+        <div class="divider-line"></div>
+        <div class="stat-label" id="statYearsLabel">Years of Experience</div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-number" id="statClients">18+</div>
+        <div class="divider-line"></div>
+        <div class="stat-label" id="statClientsLabel">Clients & Collaborators</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="contact-inner reveal">
+      <p class="section-label">Let's Build Something</p>
+
+      <h2 class="section-title">
+        Ready to<br>Collaborate?
+      </h2>
+
+      <p class="contact-copy">
+        Whether it's a game world, a cinematic set, or something entirely new — I'd love to hear about it.
+      </p>
+
+      <a href="mailto:hello@abdulrafeh.com" class="contact-email" id="contactEmail">
+        hello@abdulrafeh.com
+      </a>
+
+      <br />
+
+      <a href="mailto:hello@abdulrafeh.com" class="glass-btn accent-btn" id="contactButton">
+        Send a Message
+      </a>
+
+      <div class="social-links">
+        <a href="#" class="social-link" title="ArtStation" id="socialArtstation">AS</a>
+        <a href="#" class="social-link" title="YouTube" id="socialYoutube">YT</a>
+        <a href="#" class="social-link" title="Instagram" id="socialInstagram">IG</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© <span id="footerYear"></span> Abdul Rafeh. All rights reserved.</p>
+    <p>3D Environment Artist</p>
+  </footer>
+
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal" id="modal">
+      <button class="modal-close" id="modalClose" type="button">✕</button>
+
+      <div id="modalImgWrap"></div>
+
+      <div class="modal-body">
+        <div class="modal-grid">
+          <div>
+            <div class="modal-meta" id="modalMeta"></div>
+            <h2 class="modal-title" id="modalTitle"></h2>
+            <p class="modal-desc" id="modalDesc"></p>
+            <div class="modal-breakdown" id="modalBreakdown"></div>
+          </div>
+
+          <aside class="project-detail-card">
+            <div class="detail-row">
+              <p class="form-label">Software</p>
+              <p class="detail-value" id="modalSoftware"></p>
+            </div>
+
+            <div class="detail-row">
+              <p class="form-label">Category</p>
+              <p class="detail-value" id="modalCategory"></p>
+            </div>
+
+            <div class="detail-row">
+              <p class="form-label">Year</p>
+              <p class="detail-value" id="modalYear"></p>
+            </div>
+
+            <div class="detail-row">
+              <p class="form-label">Responsibilities</p>
+              <p class="detail-value" id="modalResponsibilities"></p>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+
+  <!--<button id="admin-toggle" title="Site Editor" type="button">✦</button>
+
+  <div id="admin-panel">
+    <div class="admin-header">
+      <div>
+        <h3>Site Editor</h3>
+        <span class="admin-hint">Edit everything here</span>
+      </div>
+
+      <button class="icon-btn" id="adminClose" type="button">✕</button>
+    </div>
+
+    <div class="admin-tabs">
+      <button class="admin-tab active" data-tab="home" type="button">Home</button>
+      <button class="admin-tab" data-tab="work" type="button">Work</button>
+      <button class="admin-tab" data-tab="about" type="button">About</button>
+      <button class="admin-tab" data-tab="contact" type="button">Contact</button>
+      <button class="admin-tab" data-tab="style" type="button">Style</button>
+      <button class="admin-tab" data-tab="manage" type="button">Manage</button>
+    </div>
+
+    <div class="admin-content">
+      <div class="admin-section active" id="tab-home">
+        <p class="admin-section-note">Navigation</p>
+
+        <div class="editor-grid">
+          <div class="form-group">
+            <label class="form-label" for="navHome">Home Nav</label>
+            <input class="form-input" id="navHome">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="navWork">Work Nav</label>
+            <input class="form-input" id="navWork">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="navAbout">About Nav</label>
+            <input class="form-input" id="navAbout">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="navContact">Contact Nav</label>
+            <input class="form-input" id="navContact">
+          </div>
+        </div>
+
+        <div class="admin-mini-divider"></div>
+
+        <p class="admin-section-note">Hero Section</p>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgHeroAlign">Hero Alignment</label>
+          <select class="form-select" id="cfgHeroAlign">
+            <option value="left">Left</option>
+            <option value="center">Center</option>
+            <option value="right">Right</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgTagline">Hero Small Text</label>
+          <input class="form-input" id="cfgTagline">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgHeroTitle">Hero Main Title</label>
+          <input class="form-input" id="cfgHeroTitle">
+          <p class="admin-hint">
+            Use &lt;br&gt; for a line break. Use &lt;em&gt;text&lt;/em&gt; for outlined text.
+          </p>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgHeroSub">Hero Subtitle</label>
+          <textarea class="form-textarea" id="cfgHeroSub"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgHeroVideo">Hero Video Path</label>
+          <input class="form-input" id="cfgHeroVideo" placeholder="assets/videos/hero.mp4">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgHeroBtn1Text">Primary Button Text</label>
+          <input class="form-input" id="cfgHeroBtn1Text">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgHeroBtn1Link">Primary Button Link</label>
+          <input class="form-input" id="cfgHeroBtn1Link">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgHeroBtn2Text">Secondary Button Text</label>
+          <input class="form-input" id="cfgHeroBtn2Text">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgHeroBtn2Link">Secondary Button Link</label>
+          <input class="form-input" id="cfgHeroBtn2Link">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgScrollHint">Scroll Hint Text</label>
+          <input class="form-input" id="cfgScrollHint">
+        </div>
+
+        <button class="admin-btn primary" id="saveHomeBtn" type="button">Save Home</button>
+      </div>
+
+      <div class="admin-section" id="tab-work">
+        <p class="admin-section-note">Work Section Text</p>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgWorkLabel">Section Label</label>
+          <input class="form-input" id="cfgWorkLabel">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgWorkTitle">Section Title</label>
+          <input class="form-input" id="cfgWorkTitle">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgWorkFilters">Filters / Categories</label>
+          <textarea class="form-textarea" id="cfgWorkFilters"></textarea>
+          <p class="admin-hint">Comma separated: cinematic, sci-fi, fantasy, architectural</p>
+        </div>
+
+        <button class="admin-btn primary" id="saveWorkIntroBtn" type="button">
+          Save Work Section
+        </button>
+
+        <div class="admin-mini-divider"></div>
+
+        <p class="admin-section-note" id="projectEditorTitle">Add / Edit Project</p>
+
+        <input type="hidden" id="editingProjectId">
+
+        <div class="form-group">
+          <label class="form-label" for="inTitle">Project Title *</label>
+          <input class="form-input" id="inTitle">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="inSoftware">Software Used *</label>
+          <input class="form-input" id="inSoftware">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="inCategory">Category</label>
+          <input class="form-input" id="inCategory" placeholder="cinematic">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="inYear">Year</label>
+          <input class="form-input" id="inYear" type="number" placeholder="2026">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="inImage">Main Image Path</label>
+          <input class="form-input" id="inImage" placeholder="assets/images/project.webp">
+          <p class="admin-hint">Put the image in assets/images first.</p>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="inGallery">Gallery Image Paths</label>
+          <textarea
+            class="form-textarea"
+            id="inGallery"
+            placeholder="assets/images/project-1.webp&#10;assets/images/project-2.webp"
+          ></textarea>
+          <p class="admin-hint">One image path per line.</p>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="inDesc">Description</label>
+          <textarea class="form-textarea" id="inDesc"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="inResponsibilities">Responsibilities</label>
+          <textarea class="form-textarea" id="inResponsibilities"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="inBreakdown">Breakdown / Process Notes</label>
+          <textarea class="form-textarea" id="inBreakdown"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="inHeight">Card Height</label>
+          <select class="form-select" id="inHeight">
+            <option value="220">Short</option>
+            <option value="300">Medium</option>
+            <option value="400">Tall</option>
+            <option value="500">Extra Tall</option>
+          </select>
+        </div>
+
+        <button class="admin-btn primary" id="saveProjectBtn" type="button">Add Project</button>
+        <button class="admin-btn" id="cancelProjectEditBtn" type="button" hidden>
+          Cancel Editing
+        </button>
+      </div>
+
+      <div class="admin-section" id="tab-about">
+        <p class="admin-section-note">About Section</p>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgAboutLabel">Section Label</label>
+          <input class="form-input" id="cfgAboutLabel">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgAboutTitle">Section Title</label>
+          <input class="form-input" id="cfgAboutTitle">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgAboutP1">Paragraph 1</label>
+          <textarea class="form-textarea" id="cfgAboutP1"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgAboutP2">Paragraph 2</label>
+          <textarea class="form-textarea" id="cfgAboutP2"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgAboutP3">Paragraph 3</label>
+          <textarea class="form-textarea" id="cfgAboutP3"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgSkills">Skills</label>
+          <textarea class="form-textarea" id="cfgSkills"></textarea>
+          <p class="admin-hint">Comma separated skills.</p>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgStat1Number">Stat 1 Number</label>
+          <input class="form-input" id="cfgStat1Number">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgStat1Label">Stat 1 Label</label>
+          <input class="form-input" id="cfgStat1Label">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgStat2Number">Stat 2 Number</label>
+          <input class="form-input" id="cfgStat2Number">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgStat2Label">Stat 2 Label</label>
+          <input class="form-input" id="cfgStat2Label">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgStat3Number">Stat 3 Number</label>
+          <input class="form-input" id="cfgStat3Number">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgStat3Label">Stat 3 Label</label>
+          <input class="form-input" id="cfgStat3Label">
+        </div>
+
+        <button class="admin-btn primary" id="saveAboutBtn" type="button">Save About</button>
+      </div>
+
+      <div class="admin-section" id="tab-contact">
+        <p class="admin-section-note">Contact Section</p>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgContactLabel">Section Label</label>
+          <input class="form-input" id="cfgContactLabel">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgContactTitle">Section Title</label>
+          <input class="form-input" id="cfgContactTitle">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgContactCopy">Contact Text</label>
+          <textarea class="form-textarea" id="cfgContactCopy"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgEmail">Email</label>
+          <input class="form-input" id="cfgEmail">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgContactButtonText">Button Text</label>
+          <input class="form-input" id="cfgContactButtonText">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgArtstation">ArtStation URL</label>
+          <input class="form-input" id="cfgArtstation">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgYoutube">YouTube URL</label>
+          <input class="form-input" id="cfgYoutube">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgInstagram">Instagram URL</label>
+          <input class="form-input" id="cfgInstagram">
+        </div>
+
+        <div class="admin-mini-divider"></div>
+
+        <p class="admin-section-note">Footer</p>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgFooterLeft">Footer Left Text</label>
+          <input class="form-input" id="cfgFooterLeft">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgFooterRight">Footer Right Text</label>
+          <input class="form-input" id="cfgFooterRight">
+        </div>
+
+        <button class="admin-btn primary" id="saveContactBtn" type="button">Save Contact</button>
+      </div>
+
+      <div class="admin-section" id="tab-style">
+        <p class="admin-section-note">Colors</p>
+
+        <div class="color-row">
+          <label for="colAccent">Primary Accent</label>
+          <input type="color" id="colAccent">
+        </div>
+
+        <div class="color-row">
+          <label for="colAccent2">Warm Accent</label>
+          <input type="color" id="colAccent2">
+        </div>
+
+        <div class="color-row">
+          <label for="colAccent3">Cool Accent</label>
+          <input type="color" id="colAccent3">
+        </div>
+
+        <div class="admin-mini-divider"></div>
+
+        <p class="admin-section-note">Show / Hide Sections</p>
+
+        <label class="admin-check">
+          <input type="checkbox" id="showWork">
+          Show Work Section
+        </label>
+
+        <label class="admin-check">
+          <input type="checkbox" id="showAbout">
+          Show About Section
+        </label>
+
+        <label class="admin-check">
+          <input type="checkbox" id="showContact">
+          Show Contact Section
+        </label>
+
+        <div class="admin-mini-divider"></div>
+
+        <p class="admin-section-note">Advanced Custom CSS</p>
+
+        <div class="form-group">
+          <label class="form-label" for="cfgCustomCSS">Custom CSS</label>
+          <textarea
+            class="form-textarea code-textarea"
+            id="cfgCustomCSS"
+            placeholder="#hero { padding-left: 10vw; }"
+          ></textarea>
+          <p class="admin-hint">
+            This lets you edit almost any visual detail without touching styles.css.
+          </p>
+        </div>
+
+        <button class="admin-btn primary" id="saveStyleBtn" type="button">Save Style</button>
+        <button class="admin-btn" id="exportConfigBtn" type="button">Download config.json</button>
+        <button class="admin-btn danger" id="resetDraftBtn" type="button">Reset Local Draft</button>
+      </div>
+
+      <div class="admin-section" id="tab-manage">
+        <p class="admin-section-note">Manage Projects</p>
+        <p class="admin-hint">Edit, delete, or reorder projects.</p>
+
+        <div class="project-list" id="projectList"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
