@@ -33,7 +33,7 @@ const defaultConfig = {
         accent: false
       }
     ],
-    email: "coolrafehq12@gmail.com"
+    email: "hello@rafeh3d.com"
   },
   work: {
     label: "Selected Work",
